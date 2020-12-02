@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #424242;
+}
+
+img{
+  width: 100%;
+}
+
+h4{
+  font-weight: normal;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container-1200{
+  width: 1200px;
+  margin: 30px auto;
+}
+
+.select-course-hd h2{
+  text-align: center;
+}
+
+.select-course-hd .select-course-desc{
+  margin: 12px 0 30px;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  position: relative;
+  color: #999;
+}
+
+.select-course-filter {
+  border-top: 5px solid #f4f4f4;
+}
+
+.select-course-filter .filter-list{
+  padding-top: 18px;
+}
+
+.select-course-filter .filter-item{
+  position: relative;
+  float: left;
+  font-size: 16px;
+  margin-right: 50px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.select-course-filter .filter-item.current{
+  color:#23b8ff;
+}
+
+.select-course-filter .filter-item.current::after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width: 100%;
+  border-bottom: 3px solid #23b8ff;
+  border-radius: 1px
+}
+
+.select-course-filter .filter-item:hover{
+  color: #23b8ff;
+}
+
+.select-course-bd{
+  margin-top: 10px;
+}
+
+.select-course-bd .course-card-list{
+  width: 1230px;
+  margin-left: -7px;
+}
+
+.select-course-bd .course-card-item{
+  float: left;
+  width: 220px;
+  height: 224px;
+  margin: 0px 15px 18px 9px;
+  padding: 7px 7px 10px;
+}
+
+.select-course-bd .course-card-item:hover{
+  box-shadow: 0 0 10px #989898;
+}
+
+.select-course-bd .course-card-item .item-tt{
+  height: 40px;
+  font-size: 14px;
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+
+.select-course-bd .course-card-item .item-agency{
+  height: 18px;
+  font-size: 12px;
+  color: #999;
+}
+
+.select-course-bd .course-card-item .item-agency a:hover,
+.select-course-bd .course-card-item .item-tt a:hover{
+  color: #23b8ff;
+}
+
+.select-course-bd .course-card-item .item-line .item-price{
+  color: #f4621f;
+  font-size: 14px;
+}
+
+.select-course-bd .course-card-item .item-line .item-price.free{
+  color: #5fb41b;
+}
+
+.select-course-bd .course-card-item .item-line .item-state{
+  margin-left: 30px;
+  font-size: 12px;
+  color: #989898;
+}
