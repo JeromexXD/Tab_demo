@@ -44,7 +44,7 @@ var person = [
   {"name":"hhg","hobby":"1,3,4,6"}
 ];
 sort -> hobby
- data -> person
- foreign_key -> 'hobby'
- sortTyoe -> 'multi'
+data -> person
+foreign_key -> 'hobby'
+sortTyoe -> 'multi'
 ```
