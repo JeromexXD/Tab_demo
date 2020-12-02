@@ -6,7 +6,7 @@
    * data 要归类的数据
    * foreign_key 关联的字段
    * sortType 归类模式 single（单一） multi（复合）
-#### 归类模式
+#### 归类模式(试例)
 ##### 单一归类
 ```
 var users = [
